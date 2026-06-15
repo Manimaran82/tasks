@@ -1,0 +1,5 @@
+export {default as CompanyInfo} from './CompanyInfo'
+export {default as EmployeeCard} from './EmployeeCard'
+export {default as MovieDetails} from './MovieDetails'
+export {default as ProductCard} from './ProductCard'
+export {default as StudentProfile} from './StudentProfile'
