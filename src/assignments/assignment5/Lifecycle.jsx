@@ -22,7 +22,7 @@ class App extends Component {
     console.log("Render called");
 
     return (
-      <div>
+      <div className='bg-blue-600 text-3xl text-white'>
         <h1>Hello, React Class Component!</h1>
       </div>
     );
