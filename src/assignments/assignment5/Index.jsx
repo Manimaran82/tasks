@@ -1,0 +1,6 @@
+export {default as Array} from './Array'
+export {default as Comp} from './Class'
+export {default as Count} from './Count'
+export {default as Lifecycle} from './Lifecycle'
+export {default as Object} from './Object'
+export {default as Usestate} from './Usestate'

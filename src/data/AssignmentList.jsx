@@ -7,6 +7,9 @@ import {Home,About,Contact,Login} from '../assignments/assignment2/Index'
 import {Employee,Product,Skills,UserCard} from '../assignments/assignment3/Index'
 //Task 4
 import {SchoolCards, Schoollist, StudentProfile as StudentProfile4, StudentCards} from '../assignments/assignment4/Index'
+//Task 5
+import {Array,Comp,Count,Lifecycle,Object,Usestate} from '../assignments/assignment5/Index'
+
 
 export const assignments = [
     {
@@ -53,6 +56,20 @@ export const assignments = [
       { id: 2, title: "Schoollist", path: "/day4/schoollist", component: Schoollist },
       { id: 3, title: "StudentProfile", path: "/day4/studentProfile", component: StudentProfile4 },
       { id: 4, title: "StudentCards", path: "/day4/studentCards", component: StudentCards },
+      
+        ]
+    }
+      ,
+    {
+        id : "day5",
+        title : "Assignment 5",
+        tasks : [
+      {id:1 ,title:"Array" ,path:'/day5/array' ,component :Array },
+      { id: 2, title: "Class", path: "/day4/class", component: Comp },
+      { id: 3, title: "Count", path: "/day4/count", component: Count },
+      { id: 4, title: "Lifecycle", path: "/day4/lifecycle", component: Lifecycle },
+      { id: 5, title: "Object", path: "/day4/object", component: Object },
+      { id: 6, title: "Usestate", path: "/day4/usestate", component: Usestate }
       
         ]
     }
