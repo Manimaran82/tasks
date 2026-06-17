@@ -9,6 +9,8 @@ import {Employee,Product,Skills,UserCard} from '../assignments/assignment3/Index
 import {SchoolCards, Schoollist, StudentProfile as StudentProfile4, StudentCards} from '../assignments/assignment4/Index'
 //Task 5
 import {Array,Comp,Count,Lifecycle,Object,Usestate} from '../assignments/assignment5/Index'
+//Task 6
+import {Task1,Task2,Task3,Task4,Task5,Task6,Task7,Task8,Task9,Task10} from '../assignments/assignment6/Index'
 
 
 export const assignments = [
@@ -70,6 +72,25 @@ export const assignments = [
       { id: 4, title: "Lifecycle", path: "/day4/lifecycle", component: Lifecycle },
       { id: 5, title: "Object", path: "/day4/object", component: Object },
       { id: 6, title: "Usestate", path: "/day4/usestate", component: Usestate }
+      
+        ]
+    }
+
+    ,
+    {
+        id : "day6",
+        title : "Assignment 6",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day5/Task1' ,component :Task1 },
+      { id: 2, title: "Task2", path: "/day4/task2", component: Task2 },
+      { id: 3, title: "Task3", path: "/day4/task3", component: Task3 },
+      { id: 4, title: "Task4", path: "/day4/task4", component: Task4 },
+      { id: 5, title: "Task5", path: "/day4/task5", component: Task5 },
+      { id: 6, title: "Task6", path: "/day4/task6", component: Task6 },
+      { id: 7, title: "Task7", path: "/day4/task7", component: Task7 },
+      { id: 8, title: "Task8", path: "/day4/task8", component: Task8 },
+      { id: 9, title: "Task9", path: "/day4/task9", component: Task9 },
+      { id: 10, title: "Task10", path: "/day4/task10", component: Task10 }
       
         ]
     }
