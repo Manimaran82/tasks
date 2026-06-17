@@ -20,7 +20,7 @@ const Task7 = () => {
       </button>
 
       {user && (
-        <div className="bg-white p-6 rounded-lg shadow-md text-center">
+        <div className="bg-white text-black p-6 rounded-lg shadow-md text-center">
           <h2 className="text-2xl font-bold">Name: {user.name}</h2>
           <p className="text-lg">City: {user.city}</p>
         </div>
