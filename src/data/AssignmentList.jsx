@@ -12,7 +12,7 @@ import {Array,Comp,Count,Lifecycle,Object,Usestate} from '../assignments/assignm
 //Task 6
 import {Task1,Task2,Task3,Task4,Task5,Task6,Task7,Task8,Task9,Task10} from '../assignments/assignment6/Index'
 //Task 7
-import {Array,Object,Arrobj} from '../assignments/assignment7/Index'
+import {Array as Array7,Object as Object7,Arrobj} from '../assignments/assignment7/Index'
 
 
 export const assignments = [
@@ -101,8 +101,8 @@ export const assignments = [
         id : "day7",
         title : "Assignment 7",
         tasks : [
-      {id:1 ,title:"Task1" ,path:'/day7/Task1' ,component :Array },
-      { id: 2, title: "Task2", path: "/day7/task2", component:Object },
+      {id:1 ,title:"Task1" ,path:'/day7/Task1' ,component :Array7 },
+      { id: 2, title: "Task2", path: "/day7/task2", component:Object7 },
       { id: 3, title: "Task3", path: "/day7/task3", component:Arrobj }
      
       
