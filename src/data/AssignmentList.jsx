@@ -11,6 +11,8 @@ import {SchoolCards, Schoollist, StudentProfile as StudentProfile4, StudentCards
 import {Array,Comp,Count,Lifecycle,Object,Usestate} from '../assignments/assignment5/Index'
 //Task 6
 import {Task1,Task2,Task3,Task4,Task5,Task6,Task7,Task8,Task9,Task10} from '../assignments/assignment6/Index'
+//Task 7
+import {Array,Object,Arrobj} from '../assignments/assignment7/Index'
 
 
 export const assignments = [
@@ -93,7 +95,18 @@ export const assignments = [
       { id: 10, title: "Task10", path: "/day4/task10", component: Task10 }
       
         ]
+    },
+    
+     {
+        id : "day7",
+        title : "Assignment 7",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day7/Task1' ,component :Array },
+      { id: 2, title: "Task2", path: "/day7/task2", component:Object },
+      { id: 3, title: "Task3", path: "/day7/task3", component:Arrobj }
+     
+      
+        ]
     }
-
 
 ]
