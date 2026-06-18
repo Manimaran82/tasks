@@ -26,7 +26,7 @@ const Arrobj = () => {
       <h1 className='text-xl font-bold mb-2'>Name : {e.name}</h1>
       <p className='mb-1'>Course : {e.course}</p>
       <p className='mb-1'>Trainer : {e.trainer}</p>
-      <p className='mb-4'>Time : {e.time}</p>
+      <p className='mb-4'>Timing : {e.time}</p>
       <button className='bg-white text-amber-800 px-4 py-2 rounded-lg font-semibold hover:bg-gray-200' onClick={()=>handle(i)}>
         Click
       </button>
