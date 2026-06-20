@@ -13,6 +13,21 @@ import {Array,Comp,Count,Lifecycle,Object,Usestate} from '../assignments/assignm
 import {Task1,Task2,Task3,Task4,Task5,Task6,Task7,Task8,Task9,Task10} from '../assignments/assignment6/Index'
 //Task 7
 import {Array as Array7,Object as Object7,Arrobj} from '../assignments/assignment7/Index'
+//Task 8
+import {
+  Task1 as Task1_8,
+  Task2 as Task2_8,
+  Task3 as Task3_8,
+  Task4 as Task4_8,
+  Task5 as Task5_8,
+  Task6 as Task6_8,
+  Task7 as Task7_8,
+  Task8 as Task8_8,
+  Task9 as Task9_8,
+  Task10 as Task10_8,
+  Task11 as Task11_8,
+  Task12 as Task12_8,
+} from '../assignments/assignment8/Index'
 
 
 export const assignments = [
@@ -109,4 +124,24 @@ export const assignments = [
         ]
     }
 
+    ,
+    {
+        id : "day8",
+        title : "Assignment 8",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day8/Task1' ,component :Task1_8 },
+          { id: 2, title: "Task2", path: "/day8/task2", component: Task2_8 },
+          { id: 3, title: "Task3", path: "/day8/task3", component: Task3_8 },
+          { id: 4, title: "Task4", path: "/day8/task4", component: Task4_8 },
+          { id: 5, title: "Task5", path: "/day8/task5", component: Task5_8 },
+          { id: 6, title: "Task6", path: "/day8/task6", component: Task6_8 },
+          { id: 7, title: "Task7", path: "/day8/task7", component: Task7_8 },
+          { id: 8, title: "Task8", path: "/day8/task8", component: Task8_8 },
+          { id: 9, title: "Task9", path: "/day8/task9", component: Task9_8 },
+          { id: 10, title: "Task10", path: "/day8/task10", component: Task10_8 },
+      { id: 11, title: "Task11", path: "/day8/task11", component: Task11_8},
+       { id: 12, title: "Task12", path: "/day8/task12", component: Task12_8 }
+      
+        ]
+    }
 ]
