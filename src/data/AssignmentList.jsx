@@ -14,22 +14,9 @@ import {Task1,Task2,Task3,Task4,Task5,Task6,Task7,Task8,Task9,Task10} from '../a
 //Task 7
 import {Array as Array7,Object as Object7,Arrobj} from '../assignments/assignment7/Index'
 //Task 8
-import {
-  Task1 as Task1_8,
-  Task2 as Task2_8,
-  Task3 as Task3_8,
-  Task4 as Task4_8,
-  Task5 as Task5_8,
-  Task6 as Task6_8,
-  Task7 as Task7_8,
-  Task8 as Task8_8,
-  Task9 as Task9_8,
-  Task10 as Task10_8,
-  Task11 as Task11_8,
-  Task12 as Task12_8,
-} from '../assignments/assignment8/Index'
-
-
+import { Task1 as Task1_8, Task2 as Task2_8, Task3 as Task3_8, Task4 as Task4_8, Task5 as Task5_8, Task6 as Task6_8, Task7 as Task7_8, Task8 as Task8_8,Task9 as Task9_8,Task10 as Task10_8, Task11 as Task11_8, Task12 as Task12_8} from '../assignments/assignment8/Index'
+//Task 9
+import {Button , Higher , withHigher} from '../assignments/assignment9/Index'
 export const assignments = [
     {
         id : "day1",
@@ -144,4 +131,14 @@ export const assignments = [
       
         ]
     }
+,
+     {
+        id : "day9",
+        title : "Assignment 9",
+        tasks : [
+          {id:1 ,title:"Task 1" ,path:'/day9/button' ,component :Button },
+          { id: 2, title: "Task 2", path: "/day9/higher", component: Higher },
+          { id: 3, title: "Task 3", path: "/day9/with-higher", component: withHigher }
+        ]
+        }
 ]
