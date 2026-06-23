@@ -17,6 +17,8 @@ import {Array as Array7,Object as Object7,Arrobj} from '../assignments/assignmen
 import { Task1 as Task1_8, Task2 as Task2_8, Task3 as Task3_8, Task4 as Task4_8, Task5 as Task5_8, Task6 as Task6_8, Task7 as Task7_8, Task8 as Task8_8,Task9 as Task9_8,Task10 as Task10_8, Task11 as Task11_8, Task12 as Task12_8} from '../assignments/assignment8/Index'
 //Task 9
 import {Button , Higher , withHigher} from '../assignments/assignment9/Index'
+//Task 10
+import {Mapping} from '../assignments/assignment10/Index'
 export const assignments = [
     {
         id : "day1",
@@ -139,6 +141,16 @@ export const assignments = [
           {id:1 ,title:"Task 1" ,path:'/day9/button' ,component :Button },
           { id: 2, title: "Task 2", path: "/day9/higher", component: Higher },
           { id: 3, title: "Task 3", path: "/day9/with-higher", component: withHigher }
+        ]
+        }
+        ,
+         {
+        id : "day10",
+        title : "Assignment 10",
+        tasks : [
+          {id:1 ,title:"Task 1" ,path:'/day10/Mapping' ,component :Mapping }
+         
+          
         ]
         }
 ]
