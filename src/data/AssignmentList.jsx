@@ -19,6 +19,8 @@ import { Task1 as Task1_8, Task2 as Task2_8, Task3 as Task3_8, Task4 as Task4_8,
 import {Button , Higher , withHigher} from '../assignments/assignment9/Index'
 //Task 10
 import {Mapping} from '../assignments/assignment10/Index'
+//Task 11
+import {Students,Employee as Employee11,Product as Product11,Profile,School} from '../assignments/assignment11/Index'
 export const assignments = [
     {
         id : "day1",
@@ -153,4 +155,18 @@ export const assignments = [
           
         ]
         }
+        ,
+        {
+        id : "day11",
+        title : "Assignment 11",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day11/Task1' ,component :Students },
+      { id: 2, title: "Task2", path: "/day11/task2", component:Employee11 },
+      { id: 3, title: "Task3", path: "/day11/task3", component:Product11 },
+      { id: 4, title: "Task4", path: "/day11/task4", component:Profile },
+      { id: 5, title: "Task5", path: "/day11/task5", component:School }
+     
+      
+        ]
+    }
 ]
