@@ -21,6 +21,8 @@ import {Button , Higher , withHigher} from '../assignments/assignment9/Index'
 import {Mapping} from '../assignments/assignment10/Index'
 //Task 11
 import {Students,Employee as Employee11,Product as Product11,Profile,School} from '../assignments/assignment11/Index'
+//Task 12
+import {Register,Login,DashBoard} from '../assignments/assignment12/Index'
 export const assignments = [
     {
         id : "day1",
@@ -167,6 +169,16 @@ export const assignments = [
       { id: 5, title: "Task5", path: "/day11/task5", component:School }
      
       
+        ]
+    }
+    ,
+     {
+        id : "day12",
+        title : "Assignment 12",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day12/Task1' ,component :Register },
+      { id: 2, title: "Task2", path: "/day12/task2", component:Login },
+      { id: 3, title: "Task3", path: "/day12/task3", component:DashBoard },
         ]
     }
 ]
