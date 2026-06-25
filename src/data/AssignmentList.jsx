@@ -2,7 +2,7 @@
 
 import {StudentProfile as StudentProfile1, EmployeeCard, ProductCard, MovieDetails, CompanyInfo} from '../assignments/assignment1/Index'
 //Task 2
-import {Home,About,Contact,Login} from '../assignments/assignment2/Index'
+import {Home,About,Contact,Login as Login2} from '../assignments/assignment2/Index'
 //Task 3
 import {Employee,Product,Skills,UserCard} from '../assignments/assignment3/Index'
 //Task 4
@@ -22,7 +22,7 @@ import {Mapping} from '../assignments/assignment10/Index'
 //Task 11
 import {Students,Employee as Employee11,Product as Product11,Profile,School} from '../assignments/assignment11/Index'
 //Task 12
-import {Register,Login,DashBoard} from '../assignments/assignment12/Index'
+import {Register,Login as Login12,DashBoard} from '../assignments/assignment12/Index'
 export const assignments = [
     {
         id : "day1",
@@ -43,7 +43,7 @@ export const assignments = [
       {id:1 ,title:"Home" ,path:'/day2/home' ,component :Home },
       { id: 2, title: "About", path: "/day2/about", component: About },
       { id: 3, title: "Contact", path: "/day2/contact", component: Contact },
-      { id: 4, title: "Login", path: "/day2/login", component: Login },
+      { id: 4, title: "Login", path: "/day2/login", component: Login2 },
       
         ]
     },
@@ -177,7 +177,7 @@ export const assignments = [
         title : "Assignment 12",
         tasks : [
       {id:1 ,title:"Task1" ,path:'/day12/Task1' ,component :Register },
-      { id: 2, title: "Task2", path: "/day12/task2", component:Login },
+      { id: 2, title: "Task2", path: "/day12/task2", component:Login12 },
       { id: 3, title: "Task3", path: "/day12/task3", component:DashBoard },
         ]
     }

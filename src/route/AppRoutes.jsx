@@ -9,9 +9,10 @@ const AppRoutes = () => {
       <Route path="/" element={<Home />} />
       <Route path="/:assignmentId" element={<AssignmentTasks />} />
       {assignments.map((a) =>
-        a.tasks.map((task) => (
-          <Route key={task.path} path={task.path} element={<task.component />} />
-        ))
+        a.tasks.map((task) => {
+          const Component = task.component;
+          return <Route key={task.path} path={task.path} element={<Component />} />;
+        })
       )}
     </Routes>
   );
