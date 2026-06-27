@@ -1,0 +1,7 @@
+export {default as Employ} from './Empoly'
+export {default as Logi} from './Logi'
+export {default as Productes} from './Productes'
+export {default as Profiles} from './Profiles'
+export {default as Registers} from './Registers'
+export {default as Schooldetails} from './Schooldetails'
+export {default as Studentdetails} from './Studentdetails'

@@ -23,6 +23,8 @@ import {Mapping} from '../assignments/assignment10/Index'
 import {Students,Employee as Employee11,Product as Product11,Profile,School} from '../assignments/assignment11/Index'
 //Task 12
 import {Register,Login as Login12,DashBoard} from '../assignments/assignment12/Index'
+//Task 13
+import {Employ,Logi,Productes,Profiles,profiles,Registers,Schooldetails,Studentdetails} from '../assignments/assignment13/Index'
 export const assignments = [
     {
         id : "day1",
@@ -179,6 +181,20 @@ export const assignments = [
       {id:1 ,title:"Task1" ,path:'/day12/Task1' ,component :Register },
       { id: 2, title: "Task2", path: "/day12/task2", component:Login12 },
       { id: 3, title: "Task3", path: "/day12/task3", component:DashBoard },
+        ]
+    }
+    ,
+    {
+        id : "day13",
+        title : "Assignment 13",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day13/Task1' ,component :Employ },
+      { id: 2, title: "Task2", path: "/day13/task2", component:Logi },
+      { id: 3, title: "Task3", path: "/day13/task3", component:Productes },
+      { id: 4, title: "Task4", path: "/day13/task4", component:Profiles },
+      { id: 5, title: "Task5", path: "/day13/task5", component:Registers },
+      { id: 6, title: "Task5", path: "/day13/task5", component:Schooldetails },
+      { id: 7, title: "Task5", path: "/day13/task5", component:Studentdetails }
         ]
     }
 ]
