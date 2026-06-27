@@ -24,7 +24,7 @@ import {Students,Employee as Employee11,Product as Product11,Profile,School} fro
 //Task 12
 import {Register,Login as Login12,DashBoard} from '../assignments/assignment12/Index'
 //Task 13
-import {Employ,Logi,Productes,Profiles,profiles,Registers,Schooldetails,Studentdetails} from '../assignments/assignment13/Index'
+import {Employ,Logi,Productes,Profiles,Registers,Schooldetails,Studentdetails} from '../assignments/assignment13/Index'
 export const assignments = [
     {
         id : "day1",
