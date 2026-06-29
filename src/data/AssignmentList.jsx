@@ -25,6 +25,9 @@ import {Students,Employee as Employee11,Product as Product11,Profile,School} fro
 import {Register,Login as Login12,DashBoard} from '../assignments/assignment12/Index'
 //Task 13
 import {Employ,Logi,Productes,Profiles,Registers,Schooldetails,Studentdetails} from '../assignments/assignment13/Index'
+//Task 14
+import {Componentload,Countdisplay,Counterconsole,Apicarts,Digitalclock,Timersec} from '../assignments/assignment14/Index'
+
 export const assignments = [
     {
         id : "day1",
@@ -197,4 +200,19 @@ export const assignments = [
       { id: 7, title: "Task5", path: "/day13/task5", component:Studentdetails }
         ]
     }
+    ,
+     {
+        id : "day14",
+        title : "Assignment 14",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day14/Task1' ,component :Componentload },
+      { id: 2, title: "Task2", path: "/day14/task2", component:Countdisplay },
+      { id: 3, title: "Task3", path: "/day14/task3", component:Counterconsole },
+      { id: 4, title: "Task4", path: "/day14/task4", component:Digitalclock },
+      { id: 5, title: "Task5", path: "/day14/task5", component:Apicarts },
+      { id: 6, title: "Task6", path: "/day14/task5", component:Timersec }
+     
+        ]
+    }
+    
 ]
