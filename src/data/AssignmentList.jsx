@@ -27,6 +27,8 @@ import {Register,Login as Login12,DashBoard} from '../assignments/assignment12/I
 import {Employ,Logi,Productes,Profiles,Registers,Schooldetails,Studentdetails} from '../assignments/assignment13/Index'
 //Task 14
 import {Componentload,Countdisplay,Counterconsole,Apicarts,Digitalclock,Timersec} from '../assignments/assignment14/Index'
+//Task 15
+import {Searchstudent,Searchproduct,Searchemplohye,Searchcourse} from '../assignments/assignment15/Index'
 
 export const assignments = [
     {
@@ -211,6 +213,19 @@ export const assignments = [
       { id: 4, title: "Task4", path: "/day14/task4", component:Digitalclock },
       { id: 5, title: "Task5", path: "/day14/task5", component:Apicarts },
       { id: 6, title: "Task6", path: "/day14/task5", component:Timersec }
+     
+        ]
+    }
+     ,
+     {
+        id : "day15",
+        title : "Assignment 15",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day15/Task1' ,component :Searchstudent },
+      { id: 2, title: "Task2", path: "/day15/task2", component:Searchproduct },
+      { id: 3, title: "Task3", path: "/day15/task3", component:Searchemplohye },
+      { id: 4, title: "Task4", path: "/day15/task4", component:Searchcourse }
+      
      
         ]
     }
