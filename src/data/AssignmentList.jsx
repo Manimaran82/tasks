@@ -29,6 +29,8 @@ import {Employ,Logi,Productes,Profiles,Registers,Schooldetails,Studentdetails} f
 import {Componentload,Countdisplay,Counterconsole,Apicarts,Digitalclock,Timersec} from '../assignments/assignment14/Index'
 //Task 15
 import {Searchstudent,Searchproduct,Searchemplohye,Searchcourse} from '../assignments/assignment15/Index'
+//Task 16
+import {Searchfilter} from '../assignments/assignment16/Index'
 
 export const assignments = [
     {
@@ -226,6 +228,15 @@ export const assignments = [
       { id: 3, title: "Task3", path: "/day15/task3", component:Searchemplohye },
       { id: 4, title: "Task4", path: "/day15/task4", component:Searchcourse }
       
+     
+        ]
+    }
+    ,
+    {
+        id : "day16",
+        title : "Assignment 16",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day16/Task1' ,component :Searchfilter }
      
         ]
     }
