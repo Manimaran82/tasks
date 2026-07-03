@@ -31,6 +31,8 @@ import {Componentload,Countdisplay,Counterconsole,Apicarts,Digitalclock,Timersec
 import {Searchstudent,Searchproduct,Searchemplohye,Searchcourse} from '../assignments/assignment15/Index'
 //Task 16
 import {Searchfilter} from '../assignments/assignment16/Index'
+//Task 17
+import {Todoprocees} from '../assignments/assignment16/Index'
 
 export const assignments = [
     {
@@ -240,5 +242,13 @@ export const assignments = [
      
         ]
     }
-    
+    ,
+     {
+        id : "day17",
+        title : "Assignment 17",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day17/Task1' ,component :Todoprocees}
+     
+        ]
+    }
 ]
