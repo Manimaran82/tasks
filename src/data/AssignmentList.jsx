@@ -32,7 +32,7 @@ import {Searchstudent,Searchproduct,Searchemplohye,Searchcourse} from '../assign
 //Task 16
 import {Searchfilter} from '../assignments/assignment16/Index'
 //Task 17
-import {Todoprocees} from '../assignments/assignment16/Index'
+import {Todoprocees} from '../assignments/assignment17/Index'
 
 export const assignments = [
     {
