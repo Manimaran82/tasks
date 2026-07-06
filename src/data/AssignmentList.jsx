@@ -33,7 +33,8 @@ import {Searchstudent,Searchproduct,Searchemplohye,Searchcourse} from '../assign
 import {Searchfilter} from '../assignments/assignment16/Index'
 //Task 17
 import {Todoprocees} from '../assignments/assignment17/Index'
-
+//Task18
+import {Input,Scrolling,Toggle} from '../assignments/assignment18/Indus'
 export const assignments = [
     {
         id : "day1",
@@ -248,6 +249,17 @@ export const assignments = [
         title : "Assignment 17",
         tasks : [
       {id:1 ,title:"Task1" ,path:'/day17/Task1' ,component :Todoprocees}
+     
+        ]
+    }
+    ,
+    {
+        id : "day18",
+        title : "Assignment 18",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day18/Task1' ,component :Input },
+      { id: 2, title: "Task2", path: "/day18/task2", component:Scrolling },
+      { id: 3, title: "Task3", path: "/day18/task3", component:Toggle }
      
         ]
     }
