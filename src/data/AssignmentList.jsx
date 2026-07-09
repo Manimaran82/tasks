@@ -35,6 +35,10 @@ import {Searchfilter} from '../assignments/assignment16/Index'
 import {Todoprocees} from '../assignments/assignment17/Index'
 //Task18
 import {Input,Scrolling,Toggle} from '../assignments/assignment18/Indus'
+//Task19
+import {App} from '../assignments/assignment19/Index'
+import useLocal from '../assignments/assignment19/useLocal'
+import useCount from '../assignments/assignment19/useCount'
 export const assignments = [
     {
         id : "day1",
@@ -260,6 +264,17 @@ export const assignments = [
       {id:1 ,title:"Task1" ,path:'/day18/Task1' ,component :Input },
       { id: 2, title: "Task2", path: "/day18/task2", component:Scrolling },
       { id: 3, title: "Task3", path: "/day18/task3", component:Toggle }
+     
+        ]
+    }
+        ,
+    {
+        id : "day19",
+        title : "Assignment 19",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day19/Task1' ,component :useCount },
+      { id: 2, title: "Task2", path: "/day19/task2", component:useLocal },
+      { id: 3, title: "Task3", path: "/day19/task3", component:Toggle }
      
         ]
     }
