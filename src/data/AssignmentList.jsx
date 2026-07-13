@@ -33,12 +33,15 @@ import {Searchstudent,Searchproduct,Searchemplohye,Searchcourse} from '../assign
 import {Searchfilter} from '../assignments/assignment16/Index'
 //Task 17
 import {Todoprocees} from '../assignments/assignment17/Index'
-//Task18
+//Task 18
 import {Input,Scrolling,Toggle} from '../assignments/assignment18/Indus'
-//Task19
+//Task 19
 import {App} from '../assignments/assignment19/Index'
 import useLocal from '../assignments/assignment19/useLocal'
 import useCount from '../assignments/assignment19/useCount'
+
+//Task 20
+import {CalculateInput,CountInput} from '../assignments/assignment20/Index'
 export const assignments = [
     {
         id : "day1",
@@ -275,7 +278,16 @@ export const assignments = [
       {id:1 ,title:"Task1" ,path:'/day19/Task1' ,component :useCount },
       { id: 2, title: "Task2", path: "/day19/task2", component:useLocal },
       { id: 3, title: "Task3", path: "/day19/task3", component:Toggle }
-     
+        ]
+    }
+        ,
+    {
+        id : "day20",
+        title : "Assignment 20",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day20/Task1' ,component :CalculateInput },
+      { id: 2, title: "Task2", path: "/day20/task2", component:CountInput },
+      { id: 3, title: "Task3", path: "/day20/task3", component:Toggle }
         ]
     }
 ]
