@@ -44,6 +44,8 @@ import useCount from '../assignments/assignment19/useCount'
 import {CalculateInput,CountInput} from '../assignments/assignment20/Index'
 //Task 21
 import {Child,Fetchusememo,UseCallback} from '../assignments/assignment21/Index'
+//Task 22
+import {UserManage,SchoolStudent,CountUseReducer} from '../assignments/assignment22/Index'
 export const assignments = [
     {
         id : "day1",
@@ -300,6 +302,16 @@ export const assignments = [
       {id:1 ,title:"Task1" ,path:'/day21/Task1' ,component :Fetchusememo },
       { id: 2, title: "Task2", path: "/day21/task2", component:UseCallback }
      
+        ]
+    }
+      ,
+    {
+        id : "day22",
+        title : "Assignment 20",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day22/Task1' ,component :UserManage },
+      { id: 2, title: "Task2", path: "/day22/task2", component:SchoolStudent },
+      { id: 3, title: "Task3", path: "/day22/task3", component:CountUseReducer }
         ]
     }
 ]
