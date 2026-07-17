@@ -36,7 +36,6 @@ import {Todoprocees} from '../assignments/assignment17/Index'
 //Task 18
 import {Input,Scrolling,Toggle} from '../assignments/assignment18/Indus'
 //Task 19
-import {App} from '../assignments/assignment19/Index'
 import useLocal from '../assignments/assignment19/useLocal'
 import useCount from '../assignments/assignment19/useCount'
 
@@ -46,6 +45,8 @@ import {CalculateInput,CountInput} from '../assignments/assignment20/Index'
 import {Child,Fetchusememo,UseCallback} from '../assignments/assignment21/Index'
 //Task 22
 import {UserManage,SchoolStudent,CountUseReducer} from '../assignments/assignment22/Index'
+//Task 23
+import {App} from '../assignments/assignment23/Index'
 export const assignments = [
     {
         id : "day1",
@@ -307,11 +308,21 @@ export const assignments = [
       ,
     {
         id : "day22",
-        title : "Assignment 20",
+        title : "Assignment 22",
         tasks : [
       {id:1 ,title:"Task1" ,path:'/day22/Task1' ,component :UserManage },
       { id: 2, title: "Task2", path: "/day22/task2", component:SchoolStudent },
       { id: 3, title: "Task3", path: "/day22/task3", component:CountUseReducer }
+        ]
+    }
+    ,
+    {
+        id : "day23",
+        title : "Assignment 23",
+        tasks : [
+      {id:1 ,title:"Task1" ,path:'/day21/Task1' ,component :App },
+      { id: 2, title: "Task2", path: "/day21/task2", component:UseCallback }
+     
         ]
     }
 ]
