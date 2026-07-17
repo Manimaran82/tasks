@@ -2,8 +2,9 @@ import React, { lazy, Suspense } from 'react'
 import NavBar from './Navbar'
 import { Route, Routes } from 'react-router-dom'
 
-const Home = lazy(()=>import("./Home"))
-const About = lazy(()=>import("./About"))
+const Home = lazy(() => import('./Home'))
+const About = lazy(() => import('./About'))
+const Contact = lazy(() => import('./Contact'))
 
 const Lazy = () => {
   return (

@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react'
 import NavBar from './Navbar'
-import Lazy from './lazy'
+import Lazy from './Lazy'
 
 const App = () => {
   return (
